@@ -286,7 +286,7 @@ def new_file():
         save_3 = asksaveasfile(mode = 'w',defaultextension = '.txt')
         if save_3 is None:
             return
-        content_3 = str(Text_area.get(1.0, END))
+        content_3 = str(Text_area_3.get(1.0, END))
         save_3.write(content_3)
         save_3.close()
 
